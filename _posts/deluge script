@@ -1,0 +1,44 @@
+---
+title: [Script] Deluge Torrent Server on Ubuntu 16.04
+subtitle: Install in seconds
+date: 2017-08-06
+tags: ["linux", "ubuntu", "deluge", "torrent", "script"]
+---
+---
+
+In the last post we went through a really long process of installing and setting up Deluge on our Ubuntu server. When you want to install Deluge on multiple servers manual process is quite boring. So a couple of weeks ago , I made a bash script to install Deluge in seconds. 
+
+This is actually my first time working with scripts. I learnt quite a lot during this process. i must say, automating your every task is amazing. 
+
+Running this script is very easy. Just follow the steps mentioned below.
+
+---
+
+Installation:
+
+Step 1
+
+SSH into your server. 
+
+Step 2 
+
+Copy the following command to download script to your server
+
+wget https://raw.githubusercontent.com/e-sean/deluge/master/deluge.sh
+
+C:\Users\ishan\Pictures\2017-10-02_21-36-29.png
+
+Step 3
+
+Run the script
+
+sudo bash deluge.sh
+
+C:\Users\ishan\Pictures\2017-10-02_21-38-09.png
+C:\Users\ishan\Pictures\2017-10-02_21-39-53.png
+
+I already had deluge installed on my server and that you can see in the screenshot. 
+
+It also asks you for a username and password which is used for remote connections.
+
+P.S. If the script gives you any errors
